@@ -40,3 +40,12 @@ function currentLine(katzDeli) {
     return `The line is currently:${katzDeliLine}`
   }
 }
+let currentNumber = 0;
+
+function servingNumber (katzDeli){
+  currentNumber++;
+  return currentNumber;
+  //while (i <katzDeli.length){
+//    var customers = katzDeli
+//  }
+}
